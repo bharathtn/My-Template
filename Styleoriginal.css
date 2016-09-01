@@ -1,0 +1,79 @@
+.email-background {
+    background: #6ac5d7;
+    padding: 10px;
+}
+.email-container,
+.pre-header,
+.footer-junk {
+    max-width: 800px;
+    background: white;
+    font-family: sans-serif;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+#apply {
+    max-width: 100%;
+}
+.pre-header {
+    color: #eee;
+    background: #eee;
+    font-size: 5px;
+}
+ol {
+    list-style-type: circle;
+}
+p {
+    margin: 20px;
+    font-size: 20px;
+    color: #6ac5d7;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: sans-serif;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+#app {
+    max-width: 10%;
+}
+#app1 {
+    max-width: 10%;
+}
+#approval {
+    max-width: 25%;
+}
+#main {
+    max-width: 49.5%;
+    text-decoration: none;
+}
+.a {
+    text-align: center;
+}
+#check1,
+#check2 {
+    max-width: 5%;
+}
+h1,
+h3 {
+    color: #6ac5d7;
+}
+.cta {
+    margin: 20px;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.footer-junk {
+    background: none;
+    padding: 20px;
+    font-size: 12px;
+}
+#p2::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+    font-family: sans-serif;
+}

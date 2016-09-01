@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+-->
+
+    <meta charset="UTF-8">
+    <style>
+        @media screen and (min-width: 600px) {
+            p {
+                font-size: 10px;
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .btn:focus,
+        .btn:active:focus,
+        .btn.active:focus,
+        .btn.focus,
+        .btn:active.focus,
+        .btn.active.focus {
+            outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+
+        .btn:hover,
+        .btn:focus,
+        .btn.focus {
+            color: #51B7E8;
+            text-decoration: none;
+        }
+
+        .btn:active,
+        .btn.active {
+            background-image: none;
+            outline: 0;
+            -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+        }
+
+        .btn.disabled,
+        .btn[disabled],
+        fieldset[disabled] .btn {
+            cursor: not-allowed;
+            filter: alpha(opacity=65);
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            opacity: .65;
+        }
+
+        a.btn.disabled,
+        fieldset[disabled] a.btn {
+            pointer-events: none;
+        }
+
+        .btn-default {
+            color: #51B7E8;
+            background-color: #fff;
+            border-color: #ccc;
+        }
+
+        .btn-default:focus,
+        .btn-default.focus {
+            color: #333;
+            background-color: #e6e6e6;
+            border-color: #8c8c8c;
+        }
+
+        .btn-default:hover {
+            color: #51B7E8;
+            background-color: #e6e6e6;
+            border-color: #adadad;
+        }
+
+        .btn-default:active,
+        .btn-default.active,
+        .open > .dropdown-toggle.btn-default {
+            color: #51B7E8;
+            background-color: #eee;
+            border-color: #adadad;
+        }
+
+        .btn-default:active:hover,
+        .btn-default.active:hover,
+        .open > .dropdown-toggle.btn-default:hover,
+        .btn-default:active:focus,
+        .btn-default.active:focus,
+        .open > .dropdown-toggle.btn-default:focus,
+        .btn-default:active.focus,
+        .btn-default.active.focus,
+        .open > .dropdown-toggle.btn-default.focus {
+            color: #51B7E8;
+            background-color: #eee;
+            border-color: #8c8c8c;
+        }
+
+        .btn-default:active,
+        .btn-default.active,
+        .open > .dropdown-toggle.btn-default {
+            background-image: none;
+        }
+
+        .btn-default.disabled:hover,
+        .btn-default[disabled]:hover,
+        fieldset[disabled] .btn-default:hover,
+        .btn-default.disabled:focus,
+        .btn-default[disabled]:focus,
+        fieldset[disabled] .btn-default:focus,
+        .btn-default.disabled.focus,
+        .btn-default[disabled].focus,
+        fieldset[disabled] .btn-default.focus {
+            background-color: #fff;
+            border-color: #ccc;
+        }
+
+        .btn-default .badge {
+            color: #fff;
+            background-color: #333;
+        }
+
+        .email-background {
+            background: #eee;
+            padding: 10px;
+        }
+
+        .email-container,
+        .pre-header,
+        .footer-junk {
+            background: #51B7E8;
+            max-width: 700px;
+            font-family: sans-serif;
+            overflow: hidden;
+            border-radius: 5px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: darkblue;
+        }
+
+        #apply {
+            max-width: 100%;
+        }
+
+        .pre-header {
+            font-size: 5px;
+        }
+
+        ol {
+            list-style-type: circle;
+        }
+
+        p {
+            margin: 20px;
+            font-size: 10px;
+            line-height: 1.5;
+            font-family: sans-serif;
+            display: inline-block;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: white;
+        }
+
+        #app {
+            max-width: 10%;
+        }
+
+        #img1 {
+            max-width: 25%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #approval {
+            max-width: 25%;
+        }
+
+        #logo {
+            float: left;
+            text-align: center;
+            max-width: 25%;
+            text-decoration: none;
+        }
+
+        a.button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+            text-decoration: none;
+            color: initial;
+        }
+
+        #check1,
+        #check2 {
+            max-width: 5%;
+        }
+
+        h1,
+        h3 {
+            color: #6ac5d7;
+        }
+
+        .cta {
+            margin: 20px;
+        }
+
+        .row:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        .footer-junk {
+            background: none;
+            padding: 20px;
+            font-size: 12px;
+        }
+
+        #p2::first-letter {
+            font-size: 200%;
+            color: #8A2BE2;
+            font-family: sans-serif;
+        }
+
+        #img2 {
+            float: right;
+            max-width: 10%;
+        }
+
+        a.btn {
+            text-decoration: none;
+        }
+
+    </style>
+    <title>Email Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="email-background">
+        <div>
+            <img id="logo" src="https://s19.postimg.org/kmfraacoz/logo.png">
+            <img id="img2" src="https://s19.postimg.org/x2h2hrver/Finallogo.png" alt="logo">
+        </div>
+        <div>
+
+            <img id="img1" src="https://s19.postimg.org/slk45crsz/rajth.png" alt="logo">
+        </div>
+
+
+        <div class="email-container" style="max-width: 800px;background: #51B7E8;">
+
+
+
+            <div>
+                <p>Please Click on the below button to fill your FeedBack For Us.
+                    <br> Thank you.</p>
+            </div>
+            <div>
+                <a href="http://google.com" class="btn btn-default">Go to Google</a>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>

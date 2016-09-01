@@ -1,0 +1,41 @@
+ db.mailinglists.insert([{
+                 "name": "Infosys Clients",
+                 "user_id": "s@s",
+                 "people": ["577c646bf67478c89d3d09fb", "577c646bf67478c89d3d09fc",
+      "577c646bf67478c89d3d09fd", "577c646bf67478c89d3d09fe", "577c646bf67478c89d3d09ff", "577c646bf67478c89d3d0a00", "577c646bf67478c89d3d0a01"
+, "577c646bf67478c89d3d0a02", "577c646bf67478c89d3d0a03", "577c646bf67478c89d3d0a04", "577c646bf67478c89d3d0a05", "577c646bf67478c89d3d0a0
+6 "     ]   },   {     "
+                     name ": "
+                     ICICI Clients ",     "
+                     user_id ": "
+                     a@ a ",     "
+                     people ": [       "
+                     577 c646bf67478c89d3d0a07 ",       "
+                     577 c646bf67478c89d3d0a08 ",       "
+                     577 c646b
+f67478c89d3d0a09 ",       "
+                     577 c646bf67478c89d3d0a0a ",       "
+                     577 c646bf67478c89d3d0a0b ",       "
+                     577 c646bf67478c89d3d0a0c ",       "
+                     577 c646bf67478c89d3d0a0d "     ]   },   {
+     "name": "IDBI Clients", "user_id": "as@sa", "people": ["577c646bf67478c89d3d0a04", "577c646bf67478c89d3d0a0e"]
+                 },
+                 {
+                     "name": "UBI
+                     Clients ",     "
+                     user_id ": "
+                     users@ examples.com ",     "
+                     people ": [       "
+                     577 c646bf67478c89d3d0a0e "     ]   },   {     "
+                     name ": "
+                     KBL Clients ",     "
+                     user_id ": "
+                     ss@ ss ",     "
+                     p
+                     eople ": [       "
+                     577 c646bf67478c89d3d0a0c ",       "
+                     577 c646bf67478c89d3d0a06 ",       "
+                     577 c646bf67478c89d3d0a00 ",       "
+                     577 c646bf67478c89d3d0a0a ",       "
+                     577 c646bf67478c
+                     89 d3d0a02 "     ]   } ]  );
